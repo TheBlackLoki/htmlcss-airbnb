@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.pagina{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(233,233,240,0.2);
+  height: 100vh;
+  width: 100vw;
+}
+.blocco{
+  position: relative;
+  height: 33%;
+  width: 100%;
+  background-size:cover;
+}
+#londra{
+  background-image: url(../img/londra.jpg);
+}
+#roma{
+  background-image: url(../img/roma.jpg);
+}
+#tokyo{
+  background-image: url(../img/tokyo.jpg);
+}
