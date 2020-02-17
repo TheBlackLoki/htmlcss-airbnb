@@ -3,18 +3,19 @@
   margin: 0;
   padding: 0;
 }
-.pagina{
+#pagina{
   position: absolute;
   top: 0;
   left: 0;
   background-color: rgba(233,233,240,0.2);
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 .blocco{
+  z-index: -1;
   position: relative;
-  height: 33%;
-  width: 100%;
+  height: 33vh;
+  width: 100vw;
   background-size:cover;
 }
 #londra{
@@ -25,4 +26,12 @@
 }
 #tokyo{
   background-image: url(../img/tokyo.jpg);
+}
+.nome{
+  color: white;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  top: calc((100% - 30px) / 2);
+  height: 30px;
 }
